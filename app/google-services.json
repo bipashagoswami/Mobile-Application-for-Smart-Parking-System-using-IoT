@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072074499256",
+    "project_id": "parkpro-1f07b",
+    "storage_bucket": "parkpro-1f07b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072074499256:android:d00570eea54777b072c04d",
+        "android_client_info": {
+          "package_name": "com.testing.parkpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072074499256-vp6etsu43atcjg6rh17jn3dq0m2jb94t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc5lh_gg4a0zvaN4RU6gRERzhWFfLkU1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072074499256-vp6etsu43atcjg6rh17jn3dq0m2jb94t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

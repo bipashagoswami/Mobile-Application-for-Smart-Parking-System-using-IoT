@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guwahati_Activity"
+    android:background="#ffffff">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E2EFF6">
+
+        <ImageView
+            android:id="@+id/logoH"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/parkproH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="ParkPro"
+            android:textColor="#055188"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/aboutus"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:background="#E2EFF6"
+            android:src="@drawable/group"
+            android:contentDescription="About us"/>
+
+        <ImageButton
+            android:id="@+id/logoutG"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/log_out"
+            android:background="#E2EFF6"
+            android:contentDescription="Logout"/>
+
+
+    </Toolbar>
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/box">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADTU Parking Lot"
+            android:textColor="#055188"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assam Down Town University"
+            android:layout_marginTop="30dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="অসম ডাউন টাউন বিশ্ববিদ্যালয় "
+            android:layout_marginTop="50dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sankar Madhab Path, Gandhi Nagar Panikhaiti, Guwahati, Assam 781026"
+            android:layout_marginTop="70dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/selectbutton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/button"
+            android:text="Select"
+            android:textSize="17dp"
+            android:textColor="#ffffff"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

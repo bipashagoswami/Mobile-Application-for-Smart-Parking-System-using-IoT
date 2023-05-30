@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutUs_Activity"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+       <Toolbar
+           android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E2EFF6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="13dp"
+                android:text="About us"
+                android:textColor="#055188"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ParkPro"
+                android:layout_marginLeft="100dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="#055188"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="ParkPro for android offers users to view the smart parking lots of various cities in Assam by which user can also view the details of available parking slots of a selected parking lot of a selected city. Also, by selecting the particular parking lot in the particular city, user can get the direction to that specific parking lot."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:layout_marginTop="40dp"
+            android:padding="15dp">
+
+            <TextView
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:text=" Bipasha Goswami"
+               android:textColor="#000000"
+               android:textSize="18dp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+              android:layout_marginTop="50dp"
+              android:text=" ADTU/2020-23/BCA/006"
+              android:textColor="#444444"
+              android:textSize="15dp" />
+
+          <TextView
+              android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="80dp"
+                android:text=" Gunjan Roy"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text=" ADTU/2020-23/BCA/009"
+                android:textColor="#444444"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:text=" Tarifa Ahmed"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:text=" ADTU/2020-23/BCA/024"
+                android:textColor="#444444"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:text="Guided by"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="220dp"
+                android:text=" Mr. Bhubneswar Das"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:text=" Assistant Professor"
+                android:textColor="#444444"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="Bachelor of Computer Application 2020-23"
+                android:layout_marginBottom="35dp"
+                android:textColor="#444444" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Faculty of Computer and Technology"
+                android:textColor="#444444" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:text="Assam Down Town University"
+                android:textColor="#444444" />
+        </RelativeLayout>
+
+    </LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParkingDetails_Activity"
+    android:background="#ffffff">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E2EFF6">
+
+        <ImageView
+            android:id="@+id/logoPD"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/namePD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="ParkPro"
+            android:textColor="#055188"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/aboutusPD"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:background="#E2EFF6"
+            android:src="@drawable/group"
+            android:contentDescription="About us"/>
+
+        <ImageButton
+            android:id="@+id/logoutPD"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/log_out"
+            android:background="#E2EFF6"
+            android:contentDescription="Logout"/>
+    </Toolbar>
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADTU Parking Lot"
+            android:gravity="center"
+            android:textColor="#055188"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sankar Madhab Path, Gandhi Nagar Panikhaiti, Guwahati, Assam 781026"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Slots: 3"
+            android:gravity="center"
+            android:textColor="#055188"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_marginTop="110dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Slots"
+            android:gravity="center"
+            android:textColor="#055188"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_marginTop="140dp"/>
+
+        <TextView
+            android:id="@+id/FData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:text=""
+            android:textSize="75dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:drawableRight="@drawable/baseline_directions_24"
+            android:layout_centerHorizontal="true"
+            android:text="@string/text1"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
